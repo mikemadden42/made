@@ -53,6 +53,7 @@ again, David Pogue brings his humor and expertise to the #1 bestselling Mac book
    15. Add local user to 'Allow access for only these users' in Sharing | Remote Login.
    16. Set preferences in iCloud.
    17. Lock screen with ‘control + shift + eject’ or ‘control + shift + power’.
+   18. Set Schedule to 'Sunset to Sunrise' under Display | Night Shift.
 
 4. Install apps from App Store.
     1. Blackmagic Disk Speed Test
