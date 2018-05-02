@@ -10,6 +10,7 @@
       - go
       - hashcat
       - htop
+      - nasm
       - nmap
       - p7zip
       - pbzip2
