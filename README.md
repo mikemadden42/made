@@ -52,7 +52,7 @@ again, David Pogue brings his humor and expertise to the #1 bestselling Mac book
    14. Check 'When the display is sleeping' Turn on Do Not Distrub in Notifications.
    15. Add local user to 'Allow access for only these users' in Sharing | Remote Login.
    16. Set preferences in iCloud.
-   17. Lock screen with ‘control + shift + eject’ or ‘control + shift + power’.
+   17. Lock screen with ‘control + shift + eject’ or ‘control + shift + power’. 'control + command + q' also works.
    18. Set Schedule to 'Sunset to Sunrise' under Display | Night Shift.
 
 4. Install apps from App Store.
