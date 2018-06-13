@@ -6,6 +6,7 @@
       name: "{{ item }}"
       state: present
     with_items:
+      - awscli
       - bash
       - go
       - hashcat
@@ -17,6 +18,7 @@
       - pigz
       - pxz
       - python3
+      - s3cmd
       - ssh-copy-id
       - the_silver_searcher
       - tmux
