@@ -6,12 +6,24 @@
       name: "{{ item }}"
       state: present
     with_items:
+      - autoconf
       - awscli
       - bash
+      - boost
+      - clang-format
+      - cmake
+      - coreutils
+      - doxygen
+      - exploitdb
+      - fping
       - go
       - hashcat
       - htop
+      - iperf3
+      - libdvdcss
+      - mutt
       - nasm
+      - ninja
       - nmap
       - p7zip
       - pbzip2
@@ -24,7 +36,9 @@
       - tmux
       - unix2dos
       - vim
+      - w3m
       - wget
+      - youtube-dl
       - zsh
       - zsh-syntax-highlighting
   - name: tap homebrew repos
