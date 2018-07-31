@@ -13,6 +13,7 @@
       - clang-format
       - cmake
       - coreutils
+      - dos2unix
       - doxygen
       - exploitdb
       - fping
@@ -29,12 +30,11 @@
       - pbzip2
       - pigz
       - pxz
-      - python3
+      - python
       - s3cmd
       - ssh-copy-id
       - the_silver_searcher
       - tmux
-      - unix2dos
       - vim
       - w3m
       - wget
