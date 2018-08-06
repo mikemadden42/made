@@ -17,6 +17,7 @@
       - doxygen
       - exploitdb
       - fping
+      - gnupg
       - go
       - hashcat
       - htop
