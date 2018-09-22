@@ -7,6 +7,7 @@
       state: present
     with_items:
       - autoconf
+      - automake
       - awscli
       - bash
       - boost
@@ -29,7 +30,9 @@
       - nmap
       - p7zip
       - pbzip2
+      - pcre
       - pigz
+      - pkg-config
       - pxz
       - python
       - s3cmd
@@ -39,6 +42,7 @@
       - vim
       - w3m
       - wget
+      - xz
       - youtube-dl
       - zsh
       - zsh-syntax-highlighting
