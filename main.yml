@@ -1,73 +1,73 @@
----
 - hosts: macbook
   tasks:
-  - name: install homebrew packages
-    homebrew:
-      name: "{{ item }}"
-      state: present
-    with_items:
-      - autoconf
-      - automake
-      - awscli
-      - bash
-      - boost
-      - clang-format
-      - cmake
-      - coreutils
-      - dos2unix
-      - doxygen
-      - exploitdb
-      - fping
-      - gnupg
-      - go
-      - hashcat
-      - htop
-      - iperf3
-      - libdvdcss
-      - mutt
-      - nasm
-      - ninja
-      - nmap
-      - p7zip
-      - pbzip2
-      - pcre
-      - pigz
-      - pkg-config
-      - pxz
-      - python
-      - s3cmd
-      - ssh-copy-id
-      - the_silver_searcher
-      - tmux
-      - vim
-      - w3m
-      - wget
-      - xz
-      - youtube-dl
-      - zsh
-      - zsh-syntax-highlighting
-  - name: tap homebrew repos
-    homebrew_cask:
-      name: "{{ item }}"
-      state: present
-    with_items:
-      - caskroom/cask
-  - name: install homebrew casks
-    homebrew_cask:
-      name: "{{ item }}"
-      state: present
-    with_items:
-      - amazon-music
-      - docker
-      - handbrake
-      - hipchat
-      - iterm2
-      - macpass
-      - postman
-      - skype-for-business
-      - spotify
-      - vagrant
-      - virtualbox
-      - visual-studio-code
-      - vmware-horizon-client
-      - wireshark
+    - name: install homebrew packages
+      homebrew:
+        name:
+          [
+            "autoconf",
+            "automake",
+            "awscli",
+            "bash",
+            "boost",
+            "clang-format",
+            "cmake",
+            "coreutils",
+            "dos2unix",
+            "doxygen",
+            "exploitdb",
+            "fping",
+            "gnupg",
+            "go",
+            "hashcat",
+            "htop",
+            "iperf3",
+            "libdvdcss",
+            "mutt",
+            "nasm",
+            "ninja",
+            "nmap",
+            "p7zip",
+            "pbzip2",
+            "pcre",
+            "pigz",
+            "pkg-config",
+            "pxz",
+            "python",
+            "s3cmd",
+            "ssh-copy-id",
+            "the_silver_searcher",
+            "tmux",
+            "vim",
+            "w3m",
+            "wget",
+            "xz",
+            "youtube-dl",
+            "zsh",
+            "zsh-syntax-highlighting",
+          ]
+        state: present
+    - name: tap homebrew repos
+      homebrew_cask:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - caskroom/cask
+    - name: install homebrew casks
+      homebrew_cask:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - amazon-music
+        - docker
+        - handbrake
+        - hipchat
+        - iterm2
+        - macpass
+        - postman
+        - skype-for-business
+        - spotify
+        - vagrant
+        - virtualbox
+        - visual-studio-code
+        - vmware-horizon-client
+        - wireshark
