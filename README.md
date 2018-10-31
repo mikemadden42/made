@@ -12,6 +12,8 @@ Mac Automated Development Environment
 
 * The fall release of macOS 10.13 High Sierra was announced on June 5, 2017 at Apple's WWDC event. On September 12, 2017 at Apple's iPhone event, they announced its release to be September 25, 2017. Like OS X El Capitan and OS X Mountain Lion, High Sierra is a refinement-based update having very few new features. High Sierra uses the new Apple File System and includes enhancements to Safari, Photos, and Mail, among other changes.
 
+* The successor to macOS High Sierra, macOS Mojave was announced at the WWDC 2018, on June 4, 2018, and was released to the public on September 24, 2018. It brings several iOS apps to the desktop, including Apple News, Voice Memos, and Home; includes a much more comprehensive "Dark Mode", and is the final version of macOS to support 32-bit apps.
+
 ----
 
 With El Capitan, Apple brings never-before-seen features to OS X—like a split-screen
@@ -28,6 +30,8 @@ With High Sierra, Apple has taken its macOS operating system to new heights. Fro
 Apple’s efficient new file system to improved video streaming and support for virtual
 reality, this latest macOS version provides features improve your experience. And once
 again, David Pogue brings his humor and expertise to the #1 bestselling Mac book.
+
+With Mojave, Apple gives macOS new features and improvements both right on your desktop and under the hood. You'll see convenient new Finder features like Quick Actions and Desktop Stacks and benefit from improved online security. The new edition of David Pogue's #1 bestselling Mac book shows you how to use the revamped App Store, all-new apps like News and Stocks, FaceTime's new Group Chat, and Dynamic Desktop.
 
 ----
 
