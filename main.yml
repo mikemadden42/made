@@ -30,6 +30,7 @@
             "pbzip2",
             "pcre",
             "pigz",
+            "pixz",
             "pkg-config",
             "pxz",
             "python",
