@@ -33,6 +33,8 @@
             "pixz",
             "pkg-config",
             "pxz",
+            "pypy",
+            "pypy3",
             "python",
             "s3cmd",
             "ssh-copy-id",
