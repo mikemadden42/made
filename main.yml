@@ -66,7 +66,6 @@
         - hipchat
         - iterm2
         - macpass
-        - microsoft-teams
         - mysqlworkbench
         - postman
         - skype-for-business
@@ -74,6 +73,5 @@
         - vagrant
         - virtualbox
         - visual-studio-code
-        - vmware-horizon-client
         - wireshark
         - zoomus
