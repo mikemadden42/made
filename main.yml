@@ -39,6 +39,7 @@
             "pypy3",
             "python",
             "ripgrep",
+            "rust",
             "s3cmd",
             "ssh-copy-id",
             "the_silver_searcher",
