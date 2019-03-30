@@ -1,0 +1,49 @@
+- hosts: macbook
+  tasks:
+    - name: install homebrew packages
+      homebrew:
+        name:
+          [
+            "bash",
+            "coreutils",
+            "dos2unix",
+            "go",
+            "htop",
+            "nmap",
+            "p7zip",
+            "pbzip2",
+            "pigz",
+            "pixz",
+            "python",
+            "ssh-copy-id",
+            "the_silver_searcher",
+            "tmux",
+            "vim",
+            "wget",
+            "xz",
+            "youtube-dl",
+            "zsh",
+            "zsh-syntax-highlighting",
+          ]
+        state: present
+    - name: tap homebrew repos
+      homebrew_cask:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - caskroom/cask
+    - name: install homebrew casks
+      homebrew_cask:
+        name: "{{ item }}"
+        state: present
+      with_items:
+        - docker
+        - iterm2
+        - macpass
+        - postman
+        - spotify
+        - sublime-text
+        - vagrant
+        - virtualbox
+        - visual-studio-code
+        - zoomus

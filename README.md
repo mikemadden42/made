@@ -73,7 +73,7 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
     ```bash
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     brew update -v && brew upgrade -v
-    brew install python3
+    brew install python
     pip3 install ansible
     ansible-playbook -c local -i hosts main.yml --check
     ansible-playbook -c local -i hosts main.yml
@@ -95,10 +95,8 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
 
 8. Install packages with pip3.
 
-9. Install packages with gem.
+9. Install packages with go get.
 
-10. Install packages with go get.
-
-11. Install extra software.
+10. Install extra software.
 
 ----
