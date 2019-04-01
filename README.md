@@ -86,9 +86,18 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
     pip3 install ansible
     ansible-playbook -c local -i hosts main.yml --check
     ansible-playbook -c local -i hosts main.yml
+    update-brew.sh
     ```
 
-7. Change shell to /usr/local/bin/bash.
+7. Change shell to /usr/local/bin/zsh.
+
+    [My favourite Zsh features](https://code.joejag.com/2014/why-zsh.html)
+
+    [Why zsh is Cooler than Your Shell](https://www.slideshare.net/brendon_jag/why-zsh-is-cooler-than-your-shell?next_slideshow=1)
+
+    [A Beautifully Productive Terminal Experience](https://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/)
+
+8. Change shell to /usr/local/bin/bash.
 
     [Upgrade to bash 4](http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/)
 
@@ -102,10 +111,25 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
 
     [bash aliases & functions](https://scriptingosx.com/2017/05/configuring-bash-with-aliases-and-functions/)
 
-8. Install packages with pip3.
+9. Install packages with pip3.
 
-9. Install packages with go get.
+    ```bash
+    sudo mkdir /usr/local/man
+    chown $USER /usr/local/man
+    update-pip.sh
+    ```
 
-10. Install extra software.
+10. Install packages with go get.
+
+    ```bash
+    update-go.sh
+    update-mage.sh
+    ```
+
+11. Update docker.
+
+    ```bash
+    update-docker.sh
+    ```
 
 ----
