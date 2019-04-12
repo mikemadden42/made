@@ -89,6 +89,12 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
     update-brew.sh
     ```
 
+    To enable key-repeating execute the following in your Terminal and restart VS Code:
+
+    ```bash
+    defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false  
+    ```
+
 7. Change shell to /usr/local/bin/zsh.
 
     [My favourite Zsh features](https://code.joejag.com/2014/why-zsh.html)
