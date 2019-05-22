@@ -34,12 +34,6 @@
             "zsh-syntax-highlighting",
           ]
         state: present
-    - name: tap homebrew repos
-      homebrew_cask:
-        name: "{{ item }}"
-        state: present
-      with_items:
-        - caskroom/cask
     - name: install homebrew casks
       homebrew_cask:
         name: "{{ item }}"
