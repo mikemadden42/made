@@ -42,6 +42,7 @@
       with_items:
         - docker
         - iterm2
+        - keepassxc
         - macpass
         - postman
         - spotify
