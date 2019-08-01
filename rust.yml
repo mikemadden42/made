@@ -1,0 +1,14 @@
+- hosts: macbook
+  tasks:
+    - name: install homebrew packages
+      homebrew:
+        name:
+          [
+            "exa",
+            "fd",
+            "ffsend",
+            "ripgrep",
+            "rust",
+            "tokei",
+          ]
+        state: present
