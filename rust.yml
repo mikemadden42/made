@@ -4,11 +4,14 @@
       homebrew:
         name:
           [
+            "bat",
             "exa",
             "fd",
+            "lsd",
             "ffsend",
             "ripgrep",
             "rust",
+            "sd",
             "tokei",
           ]
         state: present
