@@ -41,7 +41,7 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
 
 3. Setup System Preferences.
    * Select ‘Dark’ Appearance in General.
-   * Select Graphite Accent color in General.
+   * Select Blue Accent color in General.
    * Set Google Chrome as ‘Default web browser’ in General.
    * Set ‘Screen Saver’ to Message in Desktop & Screen Saver.
    * Set ‘Start after’ to 5 minutes in Desktop & Screen Saver.
@@ -54,11 +54,16 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
    * Set ‘Position on screen’ to Left, check ‘Automatically hide and show the Dock’, check ‘Magnification’ in Dock.
    * Check '24-Hour Time' in Language & Region.
    * Set 'Require password' to immediately in Security & Privacy.
+   * Turn on firewall in Security & Privacy | Firewall.
+   * Enable Full Disk Access for Terminal & iTerm in Security & Privacy | Privacy.
    * Check 'When the display is sleeping' Turn on Do Not Distrub in Notifications.
    * Add local user to 'Allow access for only these users' in Sharing | Remote Login.
    * Set preferences in iCloud.
    * Lock screen with ‘control + shift + eject’ or ‘control + shift + power’. 'control + command + q' also works.
    * Set Schedule to 'Sunset to Sunrise' under Display | Night Shift.
+   * Set alert style to Banners for apps in Notifications.
+   * Check Show Bluetooth in menu bar in Bluetooth.
+   * Enable Automatic graphics switching in Energy Saver.
 
 4. Install apps from App Store.
     * Blackmagic Disk Speed Test
@@ -82,18 +87,22 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
     ```bash
     /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     brew update -v && brew upgrade -v
-    brew install python
+    brew install python3
     pip3 install ansible
-    ansible-playbook -c local -i hosts main.yml --check
-    ansible-playbook -c local -i hosts main.yml
+    ansible-playbook -c local -i hosts beatsdev.yml --check
+    ansible-playbook -c local -i hosts beatsdev.yml
+    ansible-playbook -c local -i hosts rust.yml --check
+    ansible-playbook -c local -i hosts rust.yml
     update-brew.sh
     ```
 
     To enable key-repeating execute the following in your Terminal and restart VS Code:
 
     ```bash
-    defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false  
+    defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
     ```
+
+    Consider adding `/usr/local/sbin` to the `PATH` for apps like mtr.
 
 7. Change shell to /usr/local/bin/zsh.
 
@@ -121,7 +130,7 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
 
     ```bash
     sudo mkdir /usr/local/man
-    chown $USER /usr/local/man
+    sudo chown $USER /usr/local/man
     update-pip.sh
     ```
 
@@ -136,6 +145,12 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
 
     ```bash
     update-docker.sh
+    ```
+
+12. Update rust.
+
+    ```bash
+    update-rust.sh
     ```
 
 ----
