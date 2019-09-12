@@ -41,16 +41,16 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
 
 3. Setup System Preferences.
    * Select ‘Dark’ Appearance in General.
-   * Select Blue Accent color in General.
+   * Select 'Blue' Accent color in General.
    * Set Google Chrome as ‘Default web browser’ in General.
    * Set ‘Screen Saver’ to Message in Desktop & Screen Saver.
    * Set ‘Start after’ to 5 minutes in Desktop & Screen Saver.
    * Set ‘Show with clock’ in Desktop & Screen Saver.
    * Set lower right Hot Corner to ‘Start Screen Saver’ in Desktop & Screen Saver.
    * Add more Spaces in Mission Control.
-   * Set ‘Computer Name’ to aslan in Sharing.
+   * Set ‘Computer Name’ to custom name in Sharing.
    * Set ‘Use a 24 hour clock’ in Date & Time | Clock.
-   * Set ‘Display login window as: Name and Password’ in Users & Groups | Login Options.
+   * Set ‘Display login window as: List of users’ in Users & Groups | Login Options.
    * Set ‘Position on screen’ to Left, check ‘Automatically hide and show the Dock’, check ‘Magnification’ in Dock.
    * Check '24-Hour Time' in Language & Region.
    * Set 'Require password' to immediately in Security & Privacy.
@@ -69,7 +69,7 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
     * Blackmagic Disk Speed Test
     * Keynote
     * Kindle
-    * Microsoft Remote Desktop
+    * Microsoft Remote Desktop 10
     * Moom
     * Novabench
     * Numbers
@@ -131,14 +131,13 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
     ```bash
     sudo mkdir /usr/local/man
     sudo chown $USER /usr/local/man
-    update-pip.sh
+    update-pip3.sh
     ```
 
 10. Install packages with go get.
 
     ```bash
     update-go.sh
-    update-mage.sh
     ```
 
 11. Update docker.
