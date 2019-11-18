@@ -89,6 +89,8 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
     brew update -v && brew upgrade -v
     brew install python3
     pip3 install ansible
+    # May be needed on macOS 10.15
+    export DYLD_LIBRARY_PATH=/usr/local/opt/openssl/lib:$DYLD_LIBRARY_PATH
     ansible-playbook -c local -i hosts beatsdev.yml --check
     ansible-playbook -c local -i hosts beatsdev.yml
     ansible-playbook -c local -i hosts rust.yml --check
