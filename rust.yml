@@ -4,7 +4,9 @@
       homebrew:
         name:
           [
+            "bandwhich",
             "bat",
+            "broot",
             "exa",
             "fd",
             "ffsend",
