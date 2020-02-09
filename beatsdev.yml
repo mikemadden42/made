@@ -47,9 +47,11 @@
       with_items:
         - docker
         - iterm2
+        - kindle
         - keepassxc
         - macpass
         - postman
+        - slack
         - spotify
         - sublime-text
         - vagrant
