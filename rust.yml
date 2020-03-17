@@ -6,6 +6,7 @@
           [
             "bandwhich",
             "bat",
+            "bingrep",
             "broot",
             "dust",
             "exa",
@@ -13,6 +14,10 @@
             "ffsend",
             "hexyl",
             "lsd",
+            "mdbook",
+            "miniserve",
+            "nushell",
+            "procs",
             "ripgrep",
             "sd",
             "tokei",
