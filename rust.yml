@@ -13,6 +13,7 @@
             "fd",
             "ffsend",
             "hexyl",
+            "hyperfine",
             "lsd",
             "mdbook",
             "miniserve",
@@ -20,6 +21,7 @@
             "procs",
             "ripgrep",
             "sd",
+            "sk",
             "tokei",
           ]
         state: present
