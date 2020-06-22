@@ -29,6 +29,8 @@
             "python@2",
             "rsync",
             "ssh-copy-id",
+            "swiftformat",
+            "swiftlint",
             "tcptraceroute",
             "the_silver_searcher",
             "tmux",
