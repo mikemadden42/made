@@ -5,6 +5,7 @@
         name:
           [
             "bash",
+            "boost",
             "clang-format",
             "cmake",
             "coreutils",
