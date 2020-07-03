@@ -14,6 +14,8 @@ Mac Automated Development Environment
 
 * The successor to macOS High Sierra, macOS Mojave was announced at the WWDC 2018, on June 4, 2018, and was released to the public on September 24, 2018. It brings several iOS apps to the desktop, including Apple News, Voice Memos, and Home; includes a much more comprehensive "Dark Mode", and is the final version of macOS to support 32-bit apps.
 
+* macOS Catalina is the successor to macOS Mojave. It was announced at WWDC 2019 on June 3, 2019, and was released to the public on October 7, 2019. Catalina is the first version of macOS to support only 64-bit applications and the first to include Activation Lock. iTunes is replaced by separate Books, Music, Podcasts, and TV apps, in line with iOS. Zsh is the default login shell and interactive shell in macOS Catalina, replacing Bash, the default shell since Mac OS X Panther in 2003. Catalyst is a new software-development tool that allows developers to write apps that can run on both macOS and iPadOS.
+
 ----
 
 With El Capitan, Apple brings never-before-seen features to OS X—like a split-screen
@@ -32,6 +34,8 @@ reality, this latest macOS version provides features improve your experience. An
 again, David Pogue brings his humor and expertise to the #1 bestselling Mac book.
 
 With Mojave, Apple gives macOS new features and improvements both right on your desktop and under the hood. You'll see convenient new Finder features like Quick Actions and Desktop Stacks and benefit from improved online security. The new edition of David Pogue's #1 bestselling Mac book shows you how to use the revamped App Store, all-new apps like News and Stocks, FaceTime's new Group Chat, and Dynamic Desktop.
+
+Apple gives macOS new features and improvements right on your desktop and under the hood with Catalina—aka OS X 10.15. With Catalina, you’ll learn how to use your iPad as a second screen, work with iPad apps on your Mac, and use Screen Time on your Mac. This new edition also includes revamped apps for Music, Podcasts, and TV.
 
 ----
 
@@ -91,8 +95,8 @@ With Mojave, Apple gives macOS new features and improvements both right on your 
     pip3 install ansible
     # May be needed on macOS 10.15
     export DYLD_LIBRARY_PATH=/usr/local/opt/openssl/lib:$DYLD_LIBRARY_PATH
-    ansible-playbook -c local -i hosts beatsdev.yml --check
-    ansible-playbook -c local -i hosts beatsdev.yml
+    ansible-playbook -c local -i hosts dev.yml --check
+    ansible-playbook -c local -i hosts dev.yml
     ansible-playbook -c local -i hosts rust.yml --check
     ansible-playbook -c local -i hosts rust.yml
     update-brew.sh
