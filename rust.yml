@@ -23,6 +23,8 @@
             "ripgrep",
             "sd",
             "sk",
+            "tealdeer",
             "tokei",
+            "zenith",
           ]
         state: present
