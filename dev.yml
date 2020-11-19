@@ -52,6 +52,7 @@
       with_items:
         - brave-browser
         - burp-suite
+        - coconutbattery
         - docker
         - firefox
         - google-chrome
