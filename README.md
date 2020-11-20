@@ -58,6 +58,7 @@ Apple gives macOS new features and improvements right on your desktop and under 
    * Set ‘Position on screen’ to Left, check ‘Automatically hide and show the Dock’, check ‘Magnification’ in Dock.
    * Check '24-Hour Time' in Language & Region.
    * Set 'Require password' to immediately in Security & Privacy.
+   * Enable filevault & save recovery key.
    * Turn on firewall in Security & Privacy | Firewall.
    * Enable Full Disk Access for Terminal & iTerm in Security & Privacy | Privacy.
    * Check 'When the display is sleeping' Turn on Do Not Distrub in Notifications.
