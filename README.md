@@ -159,4 +159,8 @@ Apple gives macOS new features and improvements right on your desktop and under 
     update-rust.sh
     ```
 
+13. Update iTerm2 fonts.
+
+<https://github.com/Peltoche/lsd/issues/199#issuecomment-494218334>
+
 ----
