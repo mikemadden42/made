@@ -16,6 +16,10 @@ Mac Automated Development Environment
 
 * macOS Catalina is the successor to macOS Mojave. It was announced at WWDC 2019 on June 3, 2019, and was released to the public on October 7, 2019. Catalina is the first version of macOS to support only 64-bit applications and the first to include Activation Lock. iTunes is replaced by separate Books, Music, Podcasts, and TV apps, in line with iOS. Zsh is the default login shell and interactive shell in macOS Catalina, replacing Bash, the default shell since Mac OS X Panther in 2003. Catalyst is a new software-development tool that allows developers to write apps that can run on both macOS and iPadOS.
 
+* macOS Big Sur (version 11) is the seventeenth major release of macOS, Apple Inc.'s operating system for Macintosh computers. It was announced at Apple's Worldwide Developers Conference (WWDC) on June 22, 2020, and was released to the public on November 12, 2020. Most notably, macOS Big Sur features a user interface redesign that features new blurs to establish a visual hierarchy and also includes a revamp of the Time Machine backup mechanism, among other changes. It is also the first macOS version to support Macs with ARM-based processors. To mark the transition, the operating system's major version number was incremented, for the first time since 2000, from 10 to 11.
+
+* macOS Monterey (version 12) is the 18th and current major release of macOS, Apple's desktop operating system for Macintosh computers. The successor to macOS Big Sur, it was announced at WWDC 2021 on June 7, 2021, and released on October 25, 2021. macOS Monterey includes Universal Control (which allows input devices to be used with multiple devices simultaneously), Focus (which allows selectively limiting notifications and alerts depending on user-defined user/work modes), Shortcuts (a task automation framework previously only available on iOS and iPadOS expected to replace Automator), a redesigned Safari Web browser, and updates and improvements to FaceTime.
+
 ----
 
 With El Capitan, Apple brings never-before-seen features to OS X—like a split-screen
