@@ -73,6 +73,11 @@ Apple gives macOS new features and improvements right on your desktop and under 
    * Set alert style to Banners for apps in Notifications.
    * Check Show Bluetooth in menu bar in Bluetooth.
    * Enable Automatic graphics switching in Energy Saver.
+   * Disable Siri.
+   * Disable Screen Time.
+   * Enable Touch ID.
+   * Add a printer.
+   * Disable Time Machine.
 
 4. Install apps from App Store.
     * Blackmagic Disk Speed Test
@@ -94,11 +99,11 @@ Apple gives macOS new features and improvements right on your desktop and under 
 6. Setup homebrew & ansible.
 
     ```bash
-    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     brew update -v && brew upgrade -v
     brew install python3
     pip3 install ansible
-    # May be needed on macOS 10.15
+    # May only be needed on macOS 10.15
     export DYLD_LIBRARY_PATH=/usr/local/opt/openssl/lib:$DYLD_LIBRARY_PATH
     ansible-playbook -c local -i hosts dev.yml --check
     ansible-playbook -c local -i hosts dev.yml
@@ -106,6 +111,8 @@ Apple gives macOS new features and improvements right on your desktop and under 
     ansible-playbook -c local -i hosts rust.yml
     update-brew.sh
     ```
+
+    Set the font size to `16` for iTerm.
 
     To enable key-repeating execute the following in your Terminal and restart VS Code:
 
