@@ -174,4 +174,52 @@ Apple gives macOS new features and improvements right on your desktop and under 
 
 <https://github.com/Peltoche/lsd/issues/199#issuecomment-494218334>
 
+14. Install poetry.
+
+<https://python-poetry.org/docs/master/>
+
+15. Build common projects.
+
+* C
+* C++
+* Swift
+
+16. Setup sudo & Touch ID.
+
+<https://davidwalsh.name/touch-sudo>
+
+```bash
+# Open the sudo PAM config file.
+sudo vim /etc/pam.d/sudo
+
+# Add the following as the first line after initial comments.
+auth sufficient pam_tid.so
+
+# Save the confile file.
+:wq!
+```
+
+17. Install Visual Studio Code extensions.
+
+```bash
+
+code --install-extension EXT_NAME
+
+bungcip.better-toml
+DavidAnson.vscode-markdownlint
+DimitarNonov.jellybeans-theme
+frhtylcn.pythonsnippets
+golang.go
+idleberg.applescript
+matklad.rust-analyzer
+ms-azuretools.vscode-docker
+ms-python.python
+redhat.vscode-commons
+redhat.vscode-yaml
+vscodevim.vim
+wholroyd.jinja
+
+code --list-extensions
+```
+
 ----
