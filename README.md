@@ -43,7 +43,7 @@ Apple gives macOS new features and improvements right on your desktop and under 
 
 ----
 
-1. Install latest OS X / macOS from USB thumb drive.
+1. Install latest OS X / macOS from USB thumb drive or the Recovery Partition.
 
 2. Install updates from App Store.
 
@@ -221,5 +221,9 @@ wholroyd.jinja
 
 code --list-extensions
 ```
+
+18. Install pyenv.
+
+<https://github.com/pyenv/pyenv-installer>
 
 ----
