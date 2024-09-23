@@ -68,15 +68,13 @@ Otherwise, use these older settings.
 * Disable Time Machine.
 
 4. Install apps from App Store.
-    * Blackmagic Disk Speed Test
+    * Amazon Kindle
     * Keynote
-    * Kindle
-    * Microsoft Remote Desktop 10
-    * Moom
-    * Novabench
+    * Windows Apps - Microsoft Remote Desktop
     * Numbers
+    * Okta Verify
     * Pages
-    * Slack
+    * Xcode
 
 5. Install Xcode Command Line Tools.
 
