@@ -20,26 +20,9 @@ Mac Automated Development Environment
 
 * macOS Monterey (version 12) is the 18th and current major release of macOS, Apple's desktop operating system for Macintosh computers. The successor to macOS Big Sur, it was announced at WWDC 2021 on June 7, 2021, and released on October 25, 2021. macOS Monterey includes Universal Control (which allows input devices to be used with multiple devices simultaneously), Focus (which allows selectively limiting notifications and alerts depending on user-defined user/work modes), Shortcuts (a task automation framework previously only available on iOS and iPadOS expected to replace Automator), a redesigned Safari Web browser, and updates and improvements to FaceTime.
 
-----
+* macOS Ventura (version 13) is the 19th major release of macOS, Apple's desktop operating system for Macintosh computers. It was announced at WWDC 2022 on June 6, 2022, and released on October 24, 2022. Key new features include Stage Manager, which helps users organize open apps and windows into groups, making multitasking easier. System Settings underwent a complete redesign, shifting towards an iOS-like interface. Updates were also made to Spotlight search, Mail, Safari (including Passkeys for password-less login), and gaming with Metal 3, enhancing graphics performance and gameplay.
 
-With El Capitan, Apple brings never-before-seen features to OS X—like a split-screen
-desktop, improved window controls, and amazing graphics.  The new edition of David
-Pogue's #1 bestselling Mac book shows you how to use key new features such as swiping
-gestures, Notes, a new Spotlight search system, the Safari pinning feature, and Split View.
-
-With Sierra, Apple brings never-before-seen features to macOS—like Siri voice control,
-file sharing across all your iOS devices, picture-in-picture mode for iTunes and Safari,
-and AI photo search. Once again, David Pogue brings his humor and expertise to the #1
-bestselling Mac book.
-
-With High Sierra, Apple has taken its macOS operating system to new heights. From
-Apple’s efficient new file system to improved video streaming and support for virtual
-reality, this latest macOS version provides features improve your experience. And once
-again, David Pogue brings his humor and expertise to the #1 bestselling Mac book.
-
-With Mojave, Apple gives macOS new features and improvements both right on your desktop and under the hood. You'll see convenient new Finder features like Quick Actions and Desktop Stacks and benefit from improved online security. The new edition of David Pogue's #1 bestselling Mac book shows you how to use the revamped App Store, all-new apps like News and Stocks, FaceTime's new Group Chat, and Dynamic Desktop.
-
-Apple gives macOS new features and improvements right on your desktop and under the hood with Catalina—aka OS X 10.15. With Catalina, you’ll learn how to use your iPad as a second screen, work with iPad apps on your Mac, and use Screen Time on your Mac. This new edition also includes revamped apps for Music, Podcasts, and TV.
+* macOS Sonoma (version 14) is the 20th major release of macOS. Announced at WWDC 2023 on June 5, 2023, and released on September 26, 2023, macOS Sonoma introduced significant improvements in performance, productivity, and personalization. It includes interactive desktop widgets, bringing dynamic content directly to the desktop from various apps. A new Game Mode optimizes system resources for gaming, offering smoother gameplay and lower latency with accessories like wireless controllers and AirPods. macOS Sonoma also enhances video conferencing with advanced presenter overlays and reactions that respond to gestures. Safari was updated with profiles for better organization and advanced web apps.
 
 ----
 
