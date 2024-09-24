@@ -87,14 +87,10 @@ Otherwise, use these older settings.
     ```bash
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     brew update -v && brew upgrade -v
-    brew install python3
-    pip3 install ansible
-    # May only be needed on macOS 10.15
-    export DYLD_LIBRARY_PATH=/usr/local/opt/openssl/lib:$DYLD_LIBRARY_PATH
-    ansible-playbook -c local -i hosts dev.yml --check
-    ansible-playbook -c local -i hosts dev.yml
-    ansible-playbook -c local -i hosts rust.yml --check
-    ansible-playbook -c local -i hosts rust.yml
+    brew install ansible python3
+    git clone https://github.com/mikemadden42/mac-automation.git
+    cd mac-automation
+    ./setup-apple-apps.sh
     update-brew.sh
     ```
 
@@ -105,8 +101,6 @@ Otherwise, use these older settings.
     ```bash
     defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
     ```
-
-    Consider adding `/usr/local/sbin` to the `PATH` for apps like mtr.
 
 7. Change shell to /usr/local/bin/zsh.
 
