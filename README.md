@@ -105,13 +105,7 @@ Otherwise, use these older settings.
 1. Install packages with go get.
 
     ```bash
-    update-go.sh
-    ```
-
-1. Update docker.
-
-    ```bash
-    update-docker.sh
+    update-go.zsh
     ```
 
 1. Update rust.
