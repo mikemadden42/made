@@ -102,28 +102,6 @@ Otherwise, use these older settings.
     defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
     ```
 
-1. Change shell to /usr/local/bin/zsh.
-
-    [My favourite Zsh features](https://code.joejag.com/2014/why-zsh.html)
-
-    [Why zsh is Cooler than Your Shell](https://www.slideshare.net/brendon_jag/why-zsh-is-cooler-than-your-shell?next_slideshow=1)
-
-    [A Beautifully Productive Terminal Experience](https://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/)
-
-1. Change shell to /usr/local/bin/bash.
-
-    [Upgrade to bash 4](http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/)
-
-    [Change shell to bash 4](https://stackoverflow.com/questions/453236/how-to-set-my-default-shell-on-mac)
-
-    [Changes in bash 4](http://tldp.org/LDP/abs/html/bashver4.html)
-
-    [.bash_profile on macOS](https://scriptingosx.com/2017/04/about-bash_profile-and-bashrc-on-macos/)
-
-    [bash environment variables](https://scriptingosx.com/2017/04/on-bash-environment-variables/)
-
-    [bash aliases & functions](https://scriptingosx.com/2017/05/configuring-bash-with-aliases-and-functions/)
-
 1. Install packages with pip3.
 
     ```bash
