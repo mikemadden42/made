@@ -120,21 +120,6 @@ Otherwise, use these older settings.
 * C++
 * Swift
 
-1. Setup sudo & Touch ID.
-
-<https://davidwalsh.name/touch-sudo>
-
-```bash
-# Open the sudo PAM config file.
-sudo vim /etc/pam.d/sudo
-
-# Add the following as the first line after initial comments.
-auth sufficient pam_tid.so
-
-# Save the confile file.
-:wq!
-```
-
 1. Install Visual Studio Code extensions.
 
 ```bash
