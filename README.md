@@ -141,17 +141,24 @@ auth sufficient pam_tid.so
 
 code --install-extension EXT_NAME
 
-bungcip.better-toml
+charliermarsh.ruff
 DavidAnson.vscode-markdownlint
 DimitarNonov.jellybeans-theme
 frhtylcn.pythonsnippets
 golang.go
 idleberg.applescript
-matklad.rust-analyzer
 ms-azuretools.vscode-docker
 ms-python.python
-redhat.vscode-commons
+ms-vscode.powershell
+ms-vscode.Theme-TomorrowKit
+nimsaem.nimvscode
+redhat.vscode-xml
 redhat.vscode-yaml
+rust-lang.rust-analyzer
+ryanolsonx.zenburn
+sswg.swift-lang
+tamasfe.even-better-toml
+vadimcn.vscode-lldb
 vscodevim.vim
 wholroyd.jinja
 
