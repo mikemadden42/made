@@ -114,11 +114,7 @@ Otherwise, use these older settings.
     update-rust.sh
     ```
 
-1. Build common projects.
-
-* C
-* C++
-* Swift
+1. Build common C, C++, Swift projects.
 
 1. Install Visual Studio Code extensions.
 
