@@ -30,40 +30,9 @@ Mac Automated Development Environment
 
 1. Setup System Preferences.
 
-For macOS 13 and newer, use these [settings](system-settings.md).
+    For macOS 12 and older, use these [settings](system-preferences.md).
 
-Otherwise, use these older settings.
-
-* Select ‘Dark’ Appearance in General.
-* Select 'Blue' Accent color in General.
-* Set Google Chrome as ‘Default web browser’ in General.
-* Set ‘Screen Saver’ to Message in Desktop & Screen Saver.
-* Set ‘Start after’ to 5 minutes in Desktop & Screen Saver.
-* Set ‘Show with clock’ in Desktop & Screen Saver.
-* Set lower right Hot Corner to ‘Start Screen Saver’ in Desktop & Screen Saver.
-* Add more Spaces in Mission Control.
-* Set ‘Computer Name’ to custom name in Sharing.
-* Set ‘Use a 24 hour clock’ in Date & Time | Clock.
-* Set ‘Display login window as: List of users’ in Users & Groups | Login Options.
-* Set ‘Position on screen’ to Left, check ‘Automatically hide and show the Dock’, check ‘Magnification’ in Dock.
-* Check '24-Hour Time' in Language & Region.
-* Set 'Require password' to immediately in Security & Privacy.
-* Enable filevault & save recovery key.
-* Turn on firewall in Security & Privacy | Firewall.
-* Enable Full Disk Access for Terminal & iTerm in Security & Privacy | Privacy.
-* Check 'When the display is sleeping' Turn on Do Not Distrub in Notifications.
-* Add local user to 'Allow access for only these users' in Sharing | Remote Login.
-* Set preferences in iCloud.
-* Lock screen with ‘control + shift + eject’ or ‘control + shift + power’. 'control + command + q' also works.
-* Set Schedule to 'Sunset to Sunrise' under Display | Night Shift.
-* Set alert style to Banners for apps in Notifications.
-* Check Show Bluetooth in menu bar in Bluetooth.
-* Enable Automatic graphics switching in Energy Saver.
-* Disable Siri.
-* Disable Screen Time.
-* Enable Touch ID.
-* Add a printer.
-* Disable Time Machine.
+    For macOS 13 and newer, use these [settings](system-settings.md).
 
 1. Install apps from App Store.
     * Amazon Kindle
