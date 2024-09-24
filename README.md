@@ -28,9 +28,9 @@ Mac Automated Development Environment
 
 1. Install latest OS X / macOS from USB thumb drive or the Recovery Partition.
 
-2. Install updates from App Store.
+1. Install updates from App Store.
 
-3. Setup System Preferences.
+1. Setup System Preferences.
 
 For macOS 13 and newer, use these [settings](system-settings.md).
 
@@ -67,7 +67,7 @@ Otherwise, use these older settings.
 * Add a printer.
 * Disable Time Machine.
 
-4. Install apps from App Store.
+1. Install apps from App Store.
     * Amazon Kindle
     * Keynote
     * Windows Apps - Microsoft Remote Desktop
@@ -76,13 +76,13 @@ Otherwise, use these older settings.
     * Pages
     * Xcode
 
-5. Install Xcode Command Line Tools.
+1. Install Xcode Command Line Tools.
 
     ```bash
     xcode-select --install
     ```
 
-6. Setup homebrew & ansible.
+1. Setup homebrew & ansible.
 
     ```bash
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -102,7 +102,7 @@ Otherwise, use these older settings.
     defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
     ```
 
-7. Change shell to /usr/local/bin/zsh.
+1. Change shell to /usr/local/bin/zsh.
 
     [My favourite Zsh features](https://code.joejag.com/2014/why-zsh.html)
 
@@ -110,7 +110,7 @@ Otherwise, use these older settings.
 
     [A Beautifully Productive Terminal Experience](https://mikebuss.com/2014/02/02/a-beautiful-productive-terminal-experience/)
 
-8. Change shell to /usr/local/bin/bash.
+1. Change shell to /usr/local/bin/bash.
 
     [Upgrade to bash 4](http://clubmate.fi/upgrade-to-bash-4-in-mac-os-x/)
 
@@ -124,7 +124,7 @@ Otherwise, use these older settings.
 
     [bash aliases & functions](https://scriptingosx.com/2017/05/configuring-bash-with-aliases-and-functions/)
 
-9. Install packages with pip3.
+1. Install packages with pip3.
 
     ```bash
     sudo mkdir /usr/local/man
@@ -132,39 +132,39 @@ Otherwise, use these older settings.
     update-pip3.sh
     ```
 
-10. Install packages with go get.
+1. Install packages with go get.
 
     ```bash
     update-go.sh
     ```
 
-11. Update docker.
+1. Update docker.
 
     ```bash
     update-docker.sh
     ```
 
-12. Update rust.
+1. Update rust.
 
     ```bash
     update-rust.sh
     ```
 
-13. Update iTerm2 fonts.
+1. Update iTerm2 fonts.
 
 <https://github.com/Peltoche/lsd/issues/199#issuecomment-494218334>
 
-14. Install poetry.
+1. Install poetry.
 
 <https://python-poetry.org/docs/master/>
 
-15. Build common projects.
+1. Build common projects.
 
 * C
 * C++
 * Swift
 
-16. Setup sudo & Touch ID.
+1. Setup sudo & Touch ID.
 
 <https://davidwalsh.name/touch-sudo>
 
@@ -179,7 +179,7 @@ auth sufficient pam_tid.so
 :wq!
 ```
 
-17. Install Visual Studio Code extensions.
+1. Install Visual Studio Code extensions.
 
 ```bash
 
@@ -202,7 +202,7 @@ wholroyd.jinja
 code --list-extensions
 ```
 
-18. Install pyenv.
+1. Install pyenv.
 
 <https://github.com/pyenv/pyenv-installer>
 
