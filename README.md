@@ -102,14 +102,6 @@ Otherwise, use these older settings.
     defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
     ```
 
-1. Install packages with pip3.
-
-    ```bash
-    sudo mkdir /usr/local/man
-    sudo chown $USER /usr/local/man
-    update-pip3.sh
-    ```
-
 1. Install packages with go get.
 
     ```bash
