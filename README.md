@@ -24,6 +24,8 @@ Mac Automated Development Environment
 
 * macOS Sonoma (version 14) is the 20th major release of macOS. Announced at WWDC 2023 on June 5, 2023, and released on September 26, 2023, macOS Sonoma introduced significant improvements in performance, productivity, and personalization. It includes interactive desktop widgets, bringing dynamic content directly to the desktop from various apps. A new Game Mode optimizes system resources for gaming, offering smoother gameplay and lower latency with accessories like wireless controllers and AirPods. macOS Sonoma also enhances video conferencing with advanced presenter overlays and reactions that respond to gestures. Safari was updated with profiles for better organization and advanced web apps.
 
+* macOS Sequoia (version 15) is the twenty-first release of Apple's macOS operating system, the successor to macOS Sonoma. It was announced at WWDC 2024 on June 10, 2024. It was released on September 16, 2024.
+
 ----
 
 1. Install latest OS X / macOS from USB thumb drive or the Recovery Partition.
