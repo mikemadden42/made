@@ -87,7 +87,7 @@ Otherwise, use these older settings.
     ```bash
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     brew update -v && brew upgrade -v
-    brew install ansible python3
+    brew install ansible poetry python3
     git clone https://github.com/mikemadden42/mac-automation.git
     cd mac-automation
     ./setup-apple-apps.sh
@@ -113,14 +113,6 @@ Otherwise, use these older settings.
     ```bash
     update-rust.sh
     ```
-
-1. Update iTerm2 fonts.
-
-<https://github.com/Peltoche/lsd/issues/199#issuecomment-494218334>
-
-1. Install poetry.
-
-<https://python-poetry.org/docs/master/>
 
 1. Build common projects.
 
