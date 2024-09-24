@@ -158,8 +158,4 @@ wholroyd.jinja
 code --list-extensions
 ```
 
-1. Install pyenv.
-
-<https://github.com/pyenv/pyenv-installer>
-
 ----
