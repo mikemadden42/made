@@ -28,8 +28,6 @@ Mac Automated Development Environment
 
 1. Install latest OS X / macOS from USB thumb drive or the Recovery Partition.
 
-1. Install updates from App Store.
-
 1. Setup System Preferences.
 
 For macOS 13 and newer, use these [settings](system-settings.md).
