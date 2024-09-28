@@ -28,7 +28,7 @@ Mac Automated Development Environment
 
 ----
 
-1. Install latest OS X / macOS from USB thumb drive or the Recovery Partition.
+1. Install latest macOS from USB thumb drive or the Recovery Partition.
 
 1. Setup System Preferences.
 
@@ -39,7 +39,7 @@ Mac Automated Development Environment
 1. Install apps from App Store.
     * Amazon Kindle
     * Keynote
-    * Windows Apps - Microsoft Remote Desktop
+    * Windows App - Microsoft Remote Desktop
     * Numbers
     * Okta Verify
     * Pages
@@ -49,6 +49,12 @@ Mac Automated Development Environment
 
     ```bash
     xcode-select --install
+    ```
+
+1. Install Rosetta 2.
+
+    ```bash
+    softwareupdate --install-rosetta --agree-to-license
     ```
 
 1. Setup homebrew & ansible.
