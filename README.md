@@ -26,6 +26,8 @@ Mac Automated Development Environment
 
 * macOS Sequoia (version 15) is the twenty-first release of Apple's macOS operating system, the successor to macOS Sonoma. It was announced at WWDC 2024 on June 10, 2024. It was released on September 16, 2024.
 
+* macOS Tahoe (version 26) is the twenty-second major release of macOS, the successor to macOS Sequoia. It was announced at WWDC 2025 on June 9, 2025, and released to the public on September 15, 2025. Apple realigned the version numbering with the calendar year, jumping from 15 to 26 to match its other operating systems. Tahoe introduces a redesigned interface built around "Liquid Glass", a translucent material that reflects light and color, extending across desktop icons, folders, the Dock, menus, toolbars, and Control Center. Other additions include a new Phone app for Mac, a redesigned Spotlight with expanded search capabilities, deeper Apple Intelligence integration on M1 or later devices, and new personalization options for folders, app icons, and the lock screen. Tahoe is the final version of macOS to support Macs with Intel processors.
+
 ----
 
 1. Install latest macOS from USB thumb drive or the Recovery Partition.
