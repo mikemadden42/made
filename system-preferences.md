@@ -26,7 +26,7 @@ Here’s a set of steps to follow on macOS versions before macOS 13 (Ventura). T
    - Go to **System Preferences** > **Desktop & Screen Saver** > **Screen Saver** tab > **Hot Corners...** button > Set **Lower Right** corner to **Start Screen Saver**.
 
 8. **Add more Spaces in Mission Control**:
-   - Go to **System Preferences** > **Mission Control** > Hover over the top of the screen in **Mission Control** and click **+** to add Spaces.
+   - Invoke **Mission Control** (press **F3**, **Control + Up Arrow**, or swipe up with four fingers). Hover near the top of the screen and click the **+** that appears in the upper-right corner to add a Space.
 
 9. **Set ‘Computer Name’**:
    - Go to **System Preferences** > **Sharing** > **Computer Name** and set your custom name.
@@ -55,11 +55,12 @@ Here’s a set of steps to follow on macOS versions before macOS 13 (Ventura). T
 16. **Turn on Firewall**:
     - Go to **System Preferences** > **Security & Privacy** > **Firewall** tab > Turn on the **Firewall**.
 
-17. **Enable Full Disk Access for Terminal & iTerm**:
-    - Go to **System Preferences** > **Security & Privacy** > **Privacy** tab > **Full Disk Access** > Add **Terminal** and **iTerm**.
+17. **Enable Full Disk Access for Terminal & iTerm2**:
+    - Go to **System Preferences** > **Security & Privacy** > **Privacy** tab > **Full Disk Access** > Add **Terminal** and **iTerm2**.
 
 18. **Enable ‘Do Not Disturb’ when the display is sleeping**:
-    - Go to **System Preferences** > **Notifications** > **Do Not Disturb** and set it to turn on **When the display is sleeping**.
+    - On **Big Sur (11)**: Go to **System Preferences** > **Notifications** > **Do Not Disturb** and set it to turn on **When the display is sleeping**.
+    - On **Monterey (12)**: Go to **System Preferences** > **Notifications & Focus** > **Focus** tab, select **Do Not Disturb**, and enable the **When the display is sleeping** turn-on automation.
 
 19. **Add local user to 'Allow access for only these users' in Remote Login**:
     - Go to **System Preferences** > **Sharing** > **Remote Login** > Select **Allow access for** and add the local user.
@@ -68,7 +69,7 @@ Here’s a set of steps to follow on macOS versions before macOS 13 (Ventura). T
     - Go to **System Preferences** > **Apple ID** > **iCloud** and configure your iCloud preferences.
 
 21. **Lock screen shortcuts**:
-    - Lock the screen using **Control + Shift + Eject** (for older Macs with an optical drive) or **Control + Shift + Power** (for Macs without an optical drive). Alternatively, **Control + Command + Q** works on all Macs.
+    - Lock the screen with **Control + Command + Q**. On Macs with a power button or Touch ID sensor, **Control + Shift + Power** (or pressing the Touch ID button) also locks the screen.
 
 22. **Set Night Shift Schedule**:
     - Go to **System Preferences** > **Displays** > **Night Shift** and set the schedule to **Sunset to Sunrise**.
@@ -79,8 +80,9 @@ Here’s a set of steps to follow on macOS versions before macOS 13 (Ventura). T
 24. **Show Bluetooth in the menu bar**:
     - Go to **System Preferences** > **Bluetooth** and check **Show Bluetooth in menu bar**.
 
-25. **Enable Automatic Graphics Switching**:
-    - Go to **System Preferences** > **Energy Saver** and enable **Automatic graphics switching** (for applicable MacBook Pro models).
+25. **Enable Automatic Graphics Switching** (for applicable MacBook Pro models):
+    - On **Big Sur (11)**: Go to **System Preferences** > **Energy Saver** and enable **Automatic graphics switching**.
+    - On **Monterey (12)** laptops: Go to **System Preferences** > **Battery** > **Battery** tab and enable **Automatic graphics switching**. (On desktops the pane is still called **Energy Saver**.)
 
 26. **Disable Siri**:
     - Go to **System Preferences** > **Siri** and toggle **Siri** off.
@@ -94,7 +96,7 @@ Here’s a set of steps to follow on macOS versions before macOS 13 (Ventura). T
 29. **Add a printer**:
     - Go to **System Preferences** > **Printers & Scanners** > **Add Printer**.
 
-30. **Disable Time Machine**:
+30. **Configure Time Machine**:
     - Go to **System Preferences** > **Time Machine** and turn it off or exclude specific drives from backup.
 
 ---
