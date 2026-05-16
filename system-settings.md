@@ -7,7 +7,7 @@ Here’s an updated version of your directions for the new macOS **System Settin
 ---
 
 1. **Select ‘Dark’ Appearance**:
-   - Go to **System Settings** > **Appearance** > **Appearance** and select **Dark**.
+   - Go to **System Settings** > **Appearance** and select **Dark**.
 
 2. **Select 'Blue' Accent color**:
    - Go to **System Settings** > **Appearance** > **Accent color** and select **Blue**.
@@ -16,28 +16,30 @@ Here’s an updated version of your directions for the new macOS **System Settin
    - Go to **System Settings** > **Desktop & Dock** > Scroll down to **Default Web Browser** and choose **Google Chrome**.
 
 4. **Set ‘Screen Saver’ to Message**:
-   - Go to **System Settings** > **Lock Screen** > **Screen Saver Options** and select **Message**.
+   - On **Ventura (13)**: Go to **System Settings** > **Lock Screen** > **Screen Saver Options** and select **Message**.
+   - On **Sonoma (14)** and later: Go to **System Settings** > **Screen Saver** and select **Message**.
 
 5. **Set ‘Start after’ to 5 minutes**:
-   - Go to **System Settings** > **Lock Screen** > **Start Screen Saver after** and set it to **5 minutes**.
+   - On **Ventura (13)**: Go to **System Settings** > **Lock Screen** > **Start Screen Saver after** and set it to **5 minutes**.
+   - On **Sonoma (14)** and later: Go to **System Settings** > **Lock Screen** > **Start Screen Saver when inactive** and set it to **5 minutes**.
 
 6. **Set ‘Show with clock’ in Screen Saver**:
-   - In the same **Screen Saver Options** section, check **Show with clock**.
+   - In the **Screen Saver** section (Lock Screen on Ventura, the dedicated Screen Saver pane on Sonoma+), check **Show with clock**.
 
 7. **Set lower right Hot Corner to ‘Start Screen Saver’**:
    - Go to **System Settings** > **Desktop & Dock** > Scroll down to **Hot Corners** and set the **Lower Right** corner to **Start Screen Saver**.
 
 8. **Add more Spaces**:
-   - Go to **System Settings** > **Desktop & Dock** > Scroll down to **Mission Control** > Add Spaces by hovering over the top of the screen in Mission Control.
+   - Invoke **Mission Control** (press **F3**, **Control + Up Arrow**, or swipe up with four fingers). Hover near the top of the screen and click the **+** that appears in the upper-right corner to add a Space.
 
 9. **Set ‘Computer Name’**:
-   - Go to **System Settings** > **General** > **Sharing** and change **Computer Name**.
+   - Go to **System Settings** > **General** > **About** and edit the **Name** field. (The Local Hostname can still be edited under **General** > **Sharing**.)
 
-10. **Set ‘Use a 24 hour clock’**:
-    - Go to **System Settings** > **General** > **Date & Time** > **Clock** and enable **Use a 24-hour clock**.
+10. **Set ‘Use a 24-hour clock’** (menu bar clock display):
+    - Go to **System Settings** > **Control Center** > **Clock Options** and enable **Use a 24-hour clock**.
 
-11. **Set ‘Display login window as: List of users’**:
-    - Go to **System Settings** > **Users & Groups** > **Login Options** > **Display login window as** and select **List of users**.
+11. **Set ‘Login window shows: List of users’**:
+    - Go to **System Settings** > **Lock Screen** > **Login window shows** and select **List of users**.
 
 12. **Configure Dock settings**:
     - Go to **System Settings** > **Desktop & Dock** and adjust the following:
@@ -45,7 +47,7 @@ Here’s an updated version of your directions for the new macOS **System Settin
       - **Automatically hide and show the Dock**: Enable.
       - **Magnification**: Enable.
 
-13. **Check '24-Hour Time'**:
+13. **Check '24-Hour Time'** (system-wide time format):
     - Go to **System Settings** > **General** > **Language & Region** and check **24-Hour Time**.
 
 14. **Set 'Require password' immediately**:
@@ -55,16 +57,16 @@ Here’s an updated version of your directions for the new macOS **System Settin
     - Go to **System Settings** > **Privacy & Security** > Scroll down to **FileVault** and enable it, saving the recovery key as prompted.
 
 16. **Turn on Firewall**:
-    - Go to **System Settings** > **Privacy & Security** > Scroll down to **Firewall** and turn it on.
+    - Go to **System Settings** > **Network** > **Firewall** and turn it on.
 
-17. **Enable Full Disk Access for Terminal & iTerm**:
-    - Go to **System Settings** > **Privacy & Security** > **Full Disk Access** and grant access to **Terminal** and **iTerm**.
+17. **Enable Full Disk Access for Terminal & iTerm2**:
+    - Go to **System Settings** > **Privacy & Security** > **Full Disk Access** and grant access to **Terminal** and **iTerm2**.
 
-18. **Enable ‘Do Not Disturb’ when the display is sleeping**:
-    - Go to **System Settings** > **Focus** > **Do Not Disturb** and set it to turn on when the display is sleeping.
+18. **Schedule ‘Do Not Disturb’ for quiet hours**:
+    - Go to **System Settings** > **Focus** > **Do Not Disturb** > **Add Schedule** and choose **Time** to define an automatic on/off window (for example, overnight). The legacy "when the display is sleeping" trigger was removed when Focus replaced the original Do Not Disturb pane in macOS 12 Monterey.
 
-19. **Add local user to 'Allow access for only these users' in Remote Login**:
-    - Go to **System Settings** > **General** > **Sharing** > **Remote Login**, and under **Allow access for**, choose the local user.
+19. **Restrict Remote Login to specific users**:
+    - Go to **System Settings** > **General** > **Sharing** > **Remote Login**, set **Allow access for:** to **Only these users:**, and add the local user.
 
 20. **Set iCloud preferences**:
     - Go to **System Settings** > **Apple ID** > **iCloud** and configure your preferences.
@@ -96,7 +98,7 @@ Here’s an updated version of your directions for the new macOS **System Settin
 29. **Add a printer**:
     - Go to **System Settings** > **Printers & Scanners** > **Add Printer**.
 
-30. **Disable Time Machine**:
+30. **Configure Time Machine**:
     - Go to **System Settings** > **General** > **Time Machine** and turn it off or exclude certain drives.
 
 ---
