@@ -31,7 +31,7 @@ Here’s a set of steps to follow on macOS versions before macOS 13 (Ventura). T
 9. **Set ‘Computer Name’**:
    - Go to **System Preferences** > **Sharing** > **Computer Name** and set your custom name.
 
-10. **Set ‘Use a 24-hour clock’**:
+10. **Set ‘Use a 24-hour clock’** (menu bar clock display):
     - Go to **System Preferences** > **Date & Time** > **Clock** tab and enable **Use a 24-hour clock**.
 
 11. **Set ‘Display login window as: List of users’**:
@@ -43,11 +43,11 @@ Here’s a set of steps to follow on macOS versions before macOS 13 (Ventura). T
       - Check **Automatically hide and show the Dock**.
       - Enable **Magnification**.
 
-13. **Check '24-Hour Time' in Language & Region**:
+13. **Check '24-Hour Time' in Language & Region** (system-wide time format):
     - Go to **System Preferences** > **Language & Region** and check **24-Hour Time**.
 
-14. **Set 'Require password' immediately**:
-    - Go to **System Preferences** > **Security & Privacy** > **General** tab > Set **Require password** immediately after sleep or screen saver begins.
+14. **Set 'Require password' to 'immediately'**:
+    - Go to **System Preferences** > **Security & Privacy** > **General** tab and set **Require password** to **immediately** after sleep or screen saver begins.
 
 15. **Enable FileVault**:
     - Go to **System Preferences** > **Security & Privacy** > **FileVault** tab > Enable **FileVault** and save the recovery key as prompted.
@@ -62,8 +62,8 @@ Here’s a set of steps to follow on macOS versions before macOS 13 (Ventura). T
     - On **Big Sur (11)**: Go to **System Preferences** > **Notifications** > **Do Not Disturb** and set it to turn on **When the display is sleeping**.
     - On **Monterey (12)**: Go to **System Preferences** > **Notifications & Focus** > **Focus** tab, select **Do Not Disturb**, and enable the **When the display is sleeping** turn-on automation.
 
-19. **Add local user to 'Allow access for only these users' in Remote Login**:
-    - Go to **System Preferences** > **Sharing** > **Remote Login** > Select **Allow access for** and add the local user.
+19. **Restrict Remote Login to specific users**:
+    - Go to **System Preferences** > **Sharing** > **Remote Login**, set **Allow access for:** to **Only these users:**, and add the local user.
 
 20. **Set iCloud preferences**:
     - Go to **System Preferences** > **Apple ID** > **iCloud** and configure your iCloud preferences.
@@ -78,7 +78,7 @@ Here’s a set of steps to follow on macOS versions before macOS 13 (Ventura). T
     - Go to **System Preferences** > **Notifications** > Select an app and choose **Banners** as the alert style.
 
 24. **Show Bluetooth in the menu bar**:
-    - Go to **System Preferences** > **Bluetooth** and check **Show Bluetooth in menu bar**.
+    - Go to **System Preferences** > **Dock & Menu Bar** > **Bluetooth** and check **Show in Menu Bar**. (The legacy checkbox in the Bluetooth pane was removed in Big Sur.)
 
 25. **Enable Automatic Graphics Switching** (for applicable MacBook Pro models):
     - On **Big Sur (11)**: Go to **System Preferences** > **Energy Saver** and enable **Automatic graphics switching**.
