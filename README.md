@@ -41,7 +41,7 @@ Mac Automated Development Environment
 1. Install apps from App Store.
     * Amazon Kindle
     * Keynote
-    * Windows App - Microsoft Remote Desktop
+    * Windows App
     * Numbers
     * Okta Verify
     * Pages
@@ -64,14 +64,12 @@ Mac Automated Development Environment
     ```bash
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     brew update -v && brew upgrade -v
-    brew install ansible poetry python3
+    brew install ansible python3
     git clone https://github.com/mikemadden42/mac-automation.git
     cd mac-automation
     ./setup-apple-apps.sh
-    update-brew.sh
+    ./update_brew.sh
     ```
-
-    Set the font size to `16` for iTerm.
 
     To enable key-repeating execute the following in your Terminal and restart VS Code:
 
@@ -82,13 +80,13 @@ Mac Automated Development Environment
 1. Install packages with go get.
 
     ```bash
-    update-go.zsh
+    update_go.zsh
     ```
 
 1. Update rust.
 
     ```bash
-    update-rust.sh
+    update_rust.sh
     ```
 
 1. Build common C, C++, Swift projects.
@@ -102,23 +100,20 @@ code --install-extension EXT_NAME
 charliermarsh.ruff
 DavidAnson.vscode-markdownlint
 DimitarNonov.jellybeans-theme
-frhtylcn.pythonsnippets
 golang.go
 idleberg.applescript
-ms-azuretools.vscode-docker
+ms-azuretools.vscode-containers
 ms-python.python
 ms-vscode.powershell
-ms-vscode.Theme-TomorrowKit
-nimsaem.nimvscode
+NimLang.nimlang
 redhat.vscode-xml
 redhat.vscode-yaml
 rust-lang.rust-analyzer
-ryanolsonx.zenburn
-sswg.swift-lang
+samuelcolvin.jinjahtml
+swiftlang.swift-vscode
 tamasfe.even-better-toml
 vadimcn.vscode-lldb
 vscodevim.vim
-wholroyd.jinja
 
 code --list-extensions
 ```
