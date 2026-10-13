@@ -43,10 +43,10 @@ Mac Automated Development Environment
 1. Install apps from App Store.
     * Amazon Kindle
     * Keynote
-    * Windows App
     * Numbers
     * Okta Verify
     * Pages
+    * Windows App
     * Xcode
 
 1. Install Xcode Command Line Tools.
