@@ -6,15 +6,15 @@ Mac Automated Development Environment
 
 [macOS](https://en.wikipedia.org/wiki/MacOS)
 
-* OS X 10.11 El Capitan was released on September 30, 2015. Similar to Mac OS X 10.6 Snow Leopard, Apple described this release as containing "refinements to the Mac experience" and "improvements to system performance" rather than new features. Refinements include public transport built into the Maps application, GUI improvements to the Notes application, adopting San Francisco as the system font for clearer legibility, and the introduction of System Integrity Protection. The Metal API, first introduced in iOS 8, was also included in this operating system for "all Macs since 2012".
+* OS X El Capitan (version 10.11) was released on September 30, 2015. Similar to Mac OS X 10.6 Snow Leopard, Apple described this release as containing "refinements to the Mac experience" and "improvements to system performance" rather than new features. Refinements include public transport built into the Maps application, GUI improvements to the Notes application, adopting San Francisco as the system font for clearer legibility, and the introduction of System Integrity Protection. The Metal API, first introduced in iOS 8, was also included in this operating system for "all Macs since 2012".
 
-* macOS 10.12 Sierra was released to the public on September 20, 2016. New features include the addition of Siri, Optimized Storage, and updates to Photos, Messages, and iTunes.
+* macOS Sierra (version 10.12) was released to the public on September 20, 2016. New features include the addition of Siri, Optimized Storage, and updates to Photos, Messages, and iTunes.
 
-* The fall release of macOS 10.13 High Sierra was announced on June 5, 2017 at Apple's WWDC event. On September 12, 2017 at Apple's iPhone event, they announced its release to be September 25, 2017. Like OS X El Capitan and OS X Mountain Lion, High Sierra is a refinement-based update having very few new features. High Sierra uses the new Apple File System and includes enhancements to Safari, Photos, and Mail, among other changes.
+* The fall release of macOS High Sierra (version 10.13) was announced on June 5, 2017 at Apple's WWDC event. On September 12, 2017 at Apple's iPhone event, they announced its release to be September 25, 2017. Like OS X El Capitan and OS X Mountain Lion, High Sierra is a refinement-based update having very few new features. High Sierra uses the new Apple File System and includes enhancements to Safari, Photos, and Mail, among other changes.
 
-* The successor to macOS High Sierra, macOS Mojave was announced at the WWDC 2018, on June 4, 2018, and was released to the public on September 24, 2018. It brings several iOS apps to the desktop, including Apple News, Voice Memos, and Home; includes a much more comprehensive "Dark Mode", and is the final version of macOS to support 32-bit apps.
+* The successor to macOS High Sierra, macOS Mojave (version 10.14) was announced at the WWDC 2018, on June 4, 2018, and was released to the public on September 24, 2018. It brings several iOS apps to the desktop, including Apple News, Voice Memos, and Home; includes a much more comprehensive "Dark Mode", and is the final version of macOS to support 32-bit apps.
 
-* macOS Catalina is the successor to macOS Mojave. It was announced at WWDC 2019 on June 3, 2019, and was released to the public on October 7, 2019. Catalina is the first version of macOS to support only 64-bit applications and the first to include Activation Lock. iTunes is replaced by separate Books, Music, Podcasts, and TV apps, in line with iOS. Zsh is the default login shell and interactive shell in macOS Catalina, replacing Bash, the default shell since Mac OS X Panther in 2003. Catalyst is a new software-development tool that allows developers to write apps that can run on both macOS and iPadOS.
+* macOS Catalina (version 10.15) is the successor to macOS Mojave. It was announced at WWDC 2019 on June 3, 2019, and was released to the public on October 7, 2019. Catalina is the first version of macOS to support only 64-bit applications and the first to include Activation Lock. iTunes is replaced by separate Books, Music, Podcasts, and TV apps, in line with iOS. Zsh is the default login shell and interactive shell in macOS Catalina, replacing Bash, the default shell since Mac OS X Panther in 2003. Catalyst is a new software-development tool that allows developers to write apps that can run on both macOS and iPadOS.
 
 * macOS Big Sur (version 11) is the 17th major release of macOS, Apple Inc.'s operating system for Macintosh computers. It was announced at Apple's Worldwide Developers Conference (WWDC) on June 22, 2020, and was released to the public on November 12, 2020. Most notably, macOS Big Sur features a user interface redesign that features new blurs to establish a visual hierarchy and also includes a revamp of the Time Machine backup mechanism, among other changes. It is also the first macOS version to support Macs with ARM-based processors. To mark the transition, the operating system's major version number was incremented, for the first time since 2000, from 10 to 11.
 
@@ -61,7 +61,7 @@ Mac Automated Development Environment
     softwareupdate --install-rosetta --agree-to-license
     ```
 
-1. Setup homebrew & ansible.
+1. Set up Homebrew & Ansible.
 
     ```bash
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -82,13 +82,13 @@ Mac Automated Development Environment
 1. Update Go tools.
 
     ```bash
-    update_go.zsh
+    ./update_go.zsh
     ```
 
-1. Update rust.
+1. Update Rust.
 
     ```bash
-    update_rust.sh
+    ./update_rust.sh
     ```
 
 1. Build common C, C++, Swift projects.
