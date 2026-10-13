@@ -6,32 +6,32 @@ The steps below cover macOS **Ventura (13)**, **Sonoma (14)**, **Sequoia (15)**,
 
 ---
 
-1. **Select ‘Dark’ Appearance**:
+1. **Select 'Dark' Appearance**:
    - Go to **System Settings** > **Appearance** and select **Dark**.
 
 2. **Select 'Blue' Accent color**:
    - Go to **System Settings** > **Appearance** > **Accent color** and select **Blue**.
 
-3. **Set Google Chrome as ‘Default web browser’**:
+3. **Set Google Chrome as 'Default web browser'**:
    - Go to **System Settings** > **Desktop & Dock** > Scroll down to **Default web browser** and choose **Google Chrome**.
 
-4. **Set ‘Screen Saver’ to Message**:
+4. **Set 'Screen Saver' to Message**:
    - Go to **System Settings** > **Screen Saver** and select **Message** (under **Other** on Sonoma and later). Click **Options** to set the message text.
 
-5. **Set ‘Start after’ to 5 minutes**:
+5. **Set 'Start after' to 5 minutes**:
    - Go to **System Settings** > **Lock Screen** > **Start Screen Saver when inactive** and set it to **For 5 minutes**.
 
 6. **Show a clock on the Screen Saver**:
    - On **Ventura (13)**: Go to **System Settings** > **Screen Saver** and enable **Show with clock**.
    - On **Sonoma (14)** and later: **Show with clock** was removed. Go to **System Settings** > **Lock Screen** > **Show large clock** and select **On Screen Saver and Lock Screen**.
 
-7. **Set lower right Hot Corner to ‘Start Screen Saver’**:
+7. **Set lower right Hot Corner to 'Start Screen Saver'**:
    - Go to **System Settings** > **Desktop & Dock** > Scroll down and click **Hot Corners…**, then set the **Lower Right** corner to **Start Screen Saver**.
 
 8. **Add more Spaces**:
    - Invoke **Mission Control** (press **F3**, **Control + Up Arrow**, or swipe up with three or four fingers). Hover near the top of the screen and click the **+** that appears in the upper-right corner to add a Space.
 
-9. **Set ‘Computer Name’**:
+9. **Set 'Computer Name'**:
    - Go to **System Settings** > **General** > **About** and edit the **Name** field. (The Local Hostname can be edited at the bottom of **General** > **Sharing**.)
 
 10. **Customize the menu bar clock**:
@@ -39,10 +39,10 @@ The steps below cover macOS **Ventura (13)**, **Sonoma (14)**, **Sequoia (15)**,
     - On **Tahoe (26)** and later: Go to **System Settings** > **Menu Bar** > **Clock Options…**.
     - Adjust the date, day of week, and seconds display as desired. The 24-hour format itself is controlled by the next step.
 
-11. **Turn on ‘24-hour time’** (system-wide time format):
+11. **Turn on '24-hour time'** (system-wide time format):
     - Go to **System Settings** > **General** > **Date & Time** and enable **24-hour time**. (The same setting appears as **24-Hour Time** under **General** > **Language & Region**; the two are linked.)
 
-12. **Set ‘Login window shows: List of users’**:
+12. **Set 'Login window shows: List of users'**:
     - Go to **System Settings** > **Lock Screen** > **Login window shows** and select **List of users**.
 
 13. **Configure Dock settings**:
@@ -63,7 +63,7 @@ The steps below cover macOS **Ventura (13)**, **Sonoma (14)**, **Sequoia (15)**,
 17. **Enable Full Disk Access for Terminal & iTerm2**:
     - Go to **System Settings** > **Privacy & Security** > **Full Disk Access** and turn on **Terminal** and **iTerm2** (use **+** to add an app that isn't listed).
 
-18. **Schedule ‘Do Not Disturb’ for quiet hours**:
+18. **Schedule 'Do Not Disturb' for quiet hours**:
     - Go to **System Settings** > **Focus** > **Do Not Disturb** > **Add Schedule…** and choose **Time** to define an automatic on/off window (for example, overnight). The legacy "when the display is sleeping" trigger was removed when Focus replaced the original Do Not Disturb pane in macOS 12 Monterey.
 
 19. **Restrict Remote Login to specific users**:
