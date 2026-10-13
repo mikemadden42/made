@@ -23,10 +23,10 @@ These steps cover macOS **Big Sur (11)** and **Monterey (12)**, the last release
    - In the same **Screen Saver** settings, check **Show with clock**.
 
 7. **Set lower right Hot Corner to 'Start Screen Saver'**:
-   - Go to **System Preferences** > **Desktop & Screen Saver** > **Screen Saver** tab > **Hot Corners...** button > Set **Lower Right** corner to **Start Screen Saver**.
+   - Go to **System Preferences** > **Desktop & Screen Saver** > **Screen Saver** tab > **Hot Corners…** button > Set **Lower Right** corner to **Start Screen Saver**.
 
 8. **Add more Spaces in Mission Control**:
-   - Invoke **Mission Control** (press **F3**, **Control + Up Arrow**, or swipe up with four fingers). Hover near the top of the screen and click the **+** that appears in the upper-right corner to add a Space.
+   - Invoke **Mission Control** (press **F3**, **Control + Up Arrow**, or swipe up with three or four fingers). Hover near the top of the screen and click the **+** that appears in the upper-right corner to add a Space.
 
 9. **Set 'Computer Name'**:
    - Go to **System Preferences** > **Sharing** > **Computer Name** and set your custom name.
