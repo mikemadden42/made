@@ -16,25 +16,25 @@ Mac Automated Development Environment
 
 * macOS Catalina is the successor to macOS Mojave. It was announced at WWDC 2019 on June 3, 2019, and was released to the public on October 7, 2019. Catalina is the first version of macOS to support only 64-bit applications and the first to include Activation Lock. iTunes is replaced by separate Books, Music, Podcasts, and TV apps, in line with iOS. Zsh is the default login shell and interactive shell in macOS Catalina, replacing Bash, the default shell since Mac OS X Panther in 2003. Catalyst is a new software-development tool that allows developers to write apps that can run on both macOS and iPadOS.
 
-* macOS Big Sur (version 11) is the seventeenth major release of macOS, Apple Inc.'s operating system for Macintosh computers. It was announced at Apple's Worldwide Developers Conference (WWDC) on June 22, 2020, and was released to the public on November 12, 2020. Most notably, macOS Big Sur features a user interface redesign that features new blurs to establish a visual hierarchy and also includes a revamp of the Time Machine backup mechanism, among other changes. It is also the first macOS version to support Macs with ARM-based processors. To mark the transition, the operating system's major version number was incremented, for the first time since 2000, from 10 to 11.
+* macOS Big Sur (version 11) is the 17th major release of macOS, Apple Inc.'s operating system for Macintosh computers. It was announced at Apple's Worldwide Developers Conference (WWDC) on June 22, 2020, and was released to the public on November 12, 2020. Most notably, macOS Big Sur features a user interface redesign that features new blurs to establish a visual hierarchy and also includes a revamp of the Time Machine backup mechanism, among other changes. It is also the first macOS version to support Macs with ARM-based processors. To mark the transition, the operating system's major version number was incremented, for the first time since 2000, from 10 to 11.
 
 * macOS Monterey (version 12) is the 18th major release of macOS, Apple's desktop operating system for Macintosh computers. The successor to macOS Big Sur, it was announced at WWDC 2021 on June 7, 2021, and released on October 25, 2021. macOS Monterey includes Universal Control (which allows input devices to be used with multiple devices simultaneously; it shipped in macOS 12.3 in March 2022), Focus (which allows selectively limiting notifications and alerts depending on user-defined user/work modes), Shortcuts (a task automation framework previously only available on iOS and iPadOS), a redesigned Safari Web browser, and updates and improvements to FaceTime.
 
 * macOS Ventura (version 13) is the 19th major release of macOS, Apple's desktop operating system for Macintosh computers. It was announced at WWDC 2022 on June 6, 2022, and released on October 24, 2022. Key new features include Stage Manager, which helps users organize open apps and windows into groups, making multitasking easier. System Settings underwent a complete redesign, shifting towards an iOS-like interface. Updates were also made to Spotlight search, Mail, Safari (including Passkeys for password-less login), and gaming with Metal 3, enhancing graphics performance and gameplay.
 
-* macOS Sonoma (version 14) is the 20th major release of macOS. Announced at WWDC 2023 on June 5, 2023, and released on September 26, 2023, macOS Sonoma introduced significant improvements in performance, productivity, and personalization. It includes interactive desktop widgets, bringing dynamic content directly to the desktop from various apps. A new Game Mode optimizes system resources for gaming, offering smoother gameplay and lower latency with accessories like wireless controllers and AirPods. macOS Sonoma also enhances video conferencing with advanced presenter overlays and reactions that respond to gestures. Safari was updated with profiles for better organization and advanced web apps.
+* macOS Sonoma (version 14) is the 20th major release of macOS. Announced at WWDC 2023 on June 5, 2023, and released on September 26, 2023, macOS Sonoma introduced significant improvements in performance, productivity, and personalization. It includes interactive desktop widgets, bringing dynamic content directly to the desktop from various apps. A new Game Mode optimizes system resources for gaming, offering smoother gameplay and lower latency with accessories like wireless controllers and AirPods. macOS Sonoma also enhances video conferencing with advanced presenter overlays and reactions that respond to gestures. Safari was updated with profiles for better organization and the ability to add websites to the Dock as web apps.
 
-* macOS Sequoia (version 15) is the twenty-first major release of macOS, the successor to macOS Sonoma. It was announced at WWDC 2024 on June 10, 2024, and released on September 16, 2024. Sequoia introduces iPhone Mirroring, which streams an iPhone's Home screen and apps to the Mac and routes notifications and audio through the desktop. Window tiling automatically arranges windows into side-by-side or corner layouts when dragged to the screen edges, similar to snap-style window management on other platforms. Apple Intelligence, available on Macs with M1 or later starting with macOS 15.1, adds a refreshed Siri interface with type-to-Siri, Writing Tools for proofreading and tone adjustment, and Smart Reply in Mail; ChatGPT integration followed in macOS 15.2. Other additions include a dedicated Passwords app, a redesigned Safari with Highlights, and improvements to Notes and Messages.
+* macOS Sequoia (version 15) is the 21st major release of macOS, the successor to macOS Sonoma. It was announced at WWDC 2024 on June 10, 2024, and released on September 16, 2024. Sequoia introduces iPhone Mirroring, which streams an iPhone's Home screen and apps to the Mac and routes notifications and audio through the desktop. Window tiling automatically arranges windows into side-by-side or corner layouts when dragged to the screen edges, similar to snap-style window management on other platforms. Apple Intelligence, available on Macs with M1 or later starting with macOS 15.1, adds a refreshed Siri interface with type-to-Siri, Writing Tools for proofreading and tone adjustment, and Smart Reply in Mail; ChatGPT integration followed in macOS 15.2. Other additions include a dedicated Passwords app, Safari Highlights and a redesigned Reader view, and improvements to Notes and Messages.
 
-* macOS Tahoe (version 26) is the twenty-second major release of macOS, the successor to macOS Sequoia. It was announced at WWDC 2025 on June 9, 2025, and released to the public on September 15, 2025. Apple realigned the version numbering with the calendar year, jumping from 15 to 26 to match its other operating systems. Tahoe introduces a redesigned interface built around "Liquid Glass", a translucent material that reflects light and color, extending across desktop icons, folders, the Dock, menus, toolbars, and Control Center. Other additions include a new Phone app for Mac, a redesigned Spotlight with expanded search capabilities, deeper Apple Intelligence integration on M1 or later devices, and new personalization options for folders, app icons, and the lock screen. Tahoe is the final version of macOS to support Macs with Intel processors.
+* macOS Tahoe (version 26) is the 22nd major release of macOS, the successor to macOS Sequoia. It was announced at WWDC 2025 on June 9, 2025, and released to the public on September 15, 2025. Apple realigned the version numbering with the calendar year, jumping from 15 to 26 to match its other operating systems. Tahoe introduces a redesigned interface built around "Liquid Glass", a translucent material that reflects light and color, extending across desktop icons, folders, the Dock, menus, toolbars, and Control Center. Other additions include a new Phone app for Mac, a redesigned Spotlight with expanded search capabilities, deeper Apple Intelligence integration on M1 or later devices, and new personalization options for folders, app icons, and the lock screen. Tahoe is the final version of macOS to support Macs with Intel processors.
 
-* macOS Golden Gate (version 27) is the twenty-third major release of macOS, the successor to macOS Tahoe. It was announced at WWDC 2026 on June 8, 2026, and released to the public on September 14, 2026. Golden Gate is the first version of macOS to run only on Macs with Apple silicon, dropping support for all Intel-based Macs. Its headline feature is Siri AI, which turns Spotlight into a "Search or Ask" bar for conversing with Siri and taking actions in apps, and adds a standalone Siri app with a chatbot-style window; Siri AI is labeled as a beta. Other additions include refinements to Liquid Glass with a slider that ranges from clear to fully tinted, new AI editing tools in Photos, automatic topic-based tab grouping and page-change alerts in Safari, faster AirDrop and network share browsing, and expanded external display options.
+* macOS Golden Gate (version 27) is the 23rd major release of macOS, the successor to macOS Tahoe. It was announced at WWDC 2026 on June 8, 2026, and released to the public on September 14, 2026. Golden Gate is the first version of macOS to run only on Macs with Apple silicon, dropping support for all Intel-based Macs. Its headline feature is Siri AI, which turns Spotlight into a "Search or Ask" bar for conversing with Siri and taking actions in apps, and adds a standalone Siri app with a chatbot-style window; Siri AI is labeled as a beta. Other additions include refinements to Liquid Glass with a slider that ranges from clear to fully tinted, new AI editing tools in Photos, automatic topic-based tab grouping and page-change alerts in Safari, faster AirDrop and network share browsing, and expanded external display options.
 
 ----
 
 1. Install latest macOS from USB thumb drive or macOS Recovery.
 
-1. Setup System Preferences.
+1. Configure system settings.
 
     For macOS 12 and older, use these [settings](system-preferences.md).
 
@@ -95,29 +95,29 @@ Mac Automated Development Environment
 
 1. Install Visual Studio Code extensions.
 
-```bash
+    ```bash
+    for ext in \
+        charliermarsh.ruff \
+        DavidAnson.vscode-markdownlint \
+        DimitarNonov.jellybeans-theme \
+        golang.go \
+        idleberg.applescript \
+        ms-azuretools.vscode-containers \
+        ms-python.python \
+        ms-vscode.powershell \
+        NimLang.nimlang \
+        redhat.vscode-xml \
+        redhat.vscode-yaml \
+        rust-lang.rust-analyzer \
+        samuelcolvin.jinjahtml \
+        swiftlang.swift-vscode \
+        tamasfe.even-better-toml \
+        vadimcn.vscode-lldb \
+        vscodevim.vim; do
+        code --install-extension "$ext"
+    done
 
-code --install-extension EXT_NAME
-
-charliermarsh.ruff
-DavidAnson.vscode-markdownlint
-DimitarNonov.jellybeans-theme
-golang.go
-idleberg.applescript
-ms-azuretools.vscode-containers
-ms-python.python
-ms-vscode.powershell
-NimLang.nimlang
-redhat.vscode-xml
-redhat.vscode-yaml
-rust-lang.rust-analyzer
-samuelcolvin.jinjahtml
-swiftlang.swift-vscode
-tamasfe.even-better-toml
-vadimcn.vscode-lldb
-vscodevim.vim
-
-code --list-extensions
-```
+    code --list-extensions
+    ```
 
 ----
