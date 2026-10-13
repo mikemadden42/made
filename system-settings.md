@@ -2,7 +2,7 @@
 
 The **System Settings** app was introduced in **macOS Ventura** (version 13), which was announced at WWDC on **June 6, 2022**, and released on **October 24, 2022**. It replaced the older **System Preferences** app with a redesigned interface, making it more consistent with the Settings app found on iOS and iPadOS. The new design focuses on a sidebar layout, which allows for easier navigation across various settings.
 
-The steps below cover macOS **Ventura (13)**, **Sonoma (14)**, **Sequoia (15)**, and **Tahoe (26)**. Where a setting moved between releases, the version-specific path is noted. If you can't find a pane, type its name into the search field at the top of the System Settings sidebar.
+The steps below cover macOS **Ventura (13)**, **Sonoma (14)**, **Sequoia (15)**, **Tahoe (26)**, and **Golden Gate (27)**. Where a setting moved between releases, the version-specific path is noted. If you can't find a pane, type its name into the search field at the top of the System Settings sidebar.
 
 ---
 
@@ -36,7 +36,7 @@ The steps below cover macOS **Ventura (13)**, **Sonoma (14)**, **Sequoia (15)**,
 
 10. **Customize the menu bar clock**:
     - On **Ventura (13)** through **Sequoia (15)**: Go to **System Settings** > **Control Center** > **Clock Options…**.
-    - On **Tahoe (26)**: Go to **System Settings** > **Menu Bar** > **Clock Options…**.
+    - On **Tahoe (26)** and later: Go to **System Settings** > **Menu Bar** > **Clock Options…**.
     - Adjust the date, day of week, and seconds display as desired. The 24-hour format itself is controlled by the next step.
 
 11. **Turn on ‘24-hour time’** (system-wide time format):
@@ -85,14 +85,15 @@ The steps below cover macOS **Ventura (13)**, **Sonoma (14)**, **Sequoia (15)**,
 
 24. **Show Bluetooth in the menu bar**:
     - On **Ventura (13)** through **Sequoia (15)**: Go to **System Settings** > **Control Center** > **Bluetooth** and choose **Show in Menu Bar**.
-    - On **Tahoe (26)**: Go to **System Settings** > **Menu Bar** and turn on **Bluetooth** under **Menu Bar Controls**.
+    - On **Tahoe (26)** and later: Go to **System Settings** > **Menu Bar** and turn on **Bluetooth** under **Menu Bar Controls**.
 
 25. **Enable Automatic Graphics Switching** (Intel MacBook Pro with discrete GPU only):
-    - Go to **System Settings** > **Battery** > **Options…** and enable **Automatic graphics switching**. This option does not exist on Apple silicon Macs.
+    - Go to **System Settings** > **Battery** > **Options…** and enable **Automatic graphics switching**. This option does not exist on Apple silicon Macs, so it doesn't apply to Golden Gate (27), which runs only on Apple silicon.
 
 26. **Disable Siri**:
     - On **Ventura (13)** and **Sonoma (14)**: Go to **System Settings** > **Siri & Spotlight** and turn off **Ask Siri**.
-    - On **Sequoia (15)** and later: Go to **System Settings** > **Apple Intelligence & Siri** (or **Siri** on Macs without Apple Intelligence) and turn off **Siri**.
+    - On **Sequoia (15)** and **Tahoe (26)**: Go to **System Settings** > **Apple Intelligence & Siri** (or **Siri** on Macs without Apple Intelligence) and turn off **Siri**.
+    - On **Golden Gate (27)**: Go to **System Settings** > **Siri**, scroll to the bottom, click **Turn Off Siri**, and confirm. The pane has no on/off switch. Other Apple Intelligence features such as Writing Tools keep working.
 
 27. **Disable Screen Time**:
     - Go to **System Settings** > **Screen Time** > **App & Website Activity** and click **Turn Off App & Website Activity**.
